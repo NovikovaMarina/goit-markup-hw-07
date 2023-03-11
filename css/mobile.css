@@ -1,0 +1,27 @@
+@media screen and (min-width: 480px)
+{
+
+/*----HEADER---*/
+
+.mobile-tel {
+  font-size: 36px;
+}
+
+.mobile-list-icon {
+  gap: 56px;
+}
+
+/*----HERO---*/
+
+.hero-title {
+    max-width: 320px;
+    font-size: 36px;
+}
+
+/*----MODAL---*/
+
+.modal {
+  width: 392px;
+}
+
+}

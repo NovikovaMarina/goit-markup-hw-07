@@ -1,0 +1,190 @@
+@media screen and (min-width: 1200px)
+{
+   .container {
+      max-width: 1158px;
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+
+   .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+   }
+   
+   /*----HEADER---*/
+
+   .header {
+      padding-top: 24px;
+      padding-bottom: 23px;
+   }
+
+   .adress-list {
+      display: flex;
+   }
+
+   .header-logo {
+      margin-right: 76px;
+   }
+
+   .adress-item:not(:last-child) {
+      margin-bottom: 0px;
+      margin-right: 40px;
+   }
+
+   .header-mailto {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+   }
+   
+   .header-tel {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+   }
+   
+   /*----HERO---*/
+
+   .hero {
+      padding-top: 188px;
+      padding-bottom: 188px;
+      background-image: linear-gradient(
+    to right,rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-desk-1x.jpg);
+   }
+
+   @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+      to right,rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-desk-2x.jpg);
+  }
+  }
+
+   .hero-title {
+       margin-bottom: 48px;
+   }
+
+   /*----BENEFITS---*/
+
+    .benefits-list {
+      max-width: 1128px;
+      flex-wrap: nowrap;
+   }
+
+   .benefits-item:not(:last-child) {
+      margin-right: 24px;
+      padding-bottom: 0px;
+   }
+
+   .benefits-subtitle {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      text-align: left;
+      color: #2E2F42;
+   }
+
+   .benefits-text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #434455;
+   }
+
+   .benefits-icon {
+      display: flex;
+      height: 112px;
+      background-color: var(--background-color);
+      border-radius: 4px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 8px;
+   }
+   
+   .benefits-icon-symbol {
+    width: 64px;
+    height: 64px;
+   }
+
+   /*----SERVICES---*/
+   
+   .services {
+      display: flex;
+      padding-top: 0px;
+   }
+
+   .services-title {
+      font-size: 36px;
+      line-height: 1.11;
+      text-align: center;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      margin-bottom: 72px;
+   }
+   
+   .services-list {
+      display: flex;
+   }
+   
+   .services-item:not(:last-child) {
+      margin-right: 24px;
+   }
+
+   /*----TEAM---*/
+   
+   .team-list {
+      flex-wrap: nowrap;
+      margin-left: 0px;
+      margin-right: 0px;
+   }
+
+   .team-item:not(:last-child) {
+      margin-right: 24px;
+   }
+
+   .team-item:nth-last-child(n + 2) {
+      margin-bottom: 0px;
+  }
+
+  /*----CUSTOMERS---*/
+  
+   .customers-list {
+      max-width: 1128px;
+   }
+   
+   .customers-item {
+      width: 168px;
+   }
+
+   .customers-list .customers-item{
+      margin-bottom: 0px;
+   }
+
+   .customers-item:not(:last-child){
+      margin-right: 24px;
+   }
+
+   /*----FOOTER---*/
+
+   .footer {
+      padding-top: 100px;
+      padding-bottom: 100px;
+   }
+
+   .footer-container-logo {
+      margin-bottom: 0px;
+      margin-right: 120px;
+   }
+   
+   .media-footer-container {
+   margin-bottom: 0px;
+   margin-right: 80px;
+   }
+
+   .footer-online {
+      margin-left: 0px;
+      margin-right: 0px;
+   }
+
+}
