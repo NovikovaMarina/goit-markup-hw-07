@@ -135,6 +135,10 @@
 
     /*----BENEFITS---*/
 
+    .benefits-subtitle {
+    text-align: left;
+    }
+
     .benefits-list {
         max-width: 731px;
         display: flex;

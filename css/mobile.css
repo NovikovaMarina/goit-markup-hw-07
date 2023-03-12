@@ -1,5 +1,8 @@
 @media screen and (min-width: 480px)
 {
+  .container {
+    max-width: 428px;
+}
 
 /*----HEADER---*/
 
@@ -24,4 +27,7 @@
   width: 392px;
 }
 
+.footer-container{
+  max-width: 430px;
+}
 }
